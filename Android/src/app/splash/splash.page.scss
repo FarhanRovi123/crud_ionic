@@ -1,0 +1,19 @@
+ion-content{
+    --background:linear-gradient(to bottom, #22clc3, #fdbb2dal);
+
+}
+
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+
+.container {
+    -webkit-animation:scale-up-center .4s cubic-bezier;animation:scale-up-center .4s cubic-bezier;
+   
+
+    img{
+        height: 50%;
+        margin-top: 50%;
+    }
+    .text-splash{
+        color: rgb(11, 92, 172)
+    }
+}

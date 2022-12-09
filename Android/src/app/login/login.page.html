@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login Student</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div class="login-section ion-padding">
+  <img src="https://i.pinimg.com/originals/5c/bc/16/5cbc1628148150293533f803431bc644.jpg">
+  <div class="heading in-padding">
+    <p>Sign in to continue</p>
+  </div>
+  <div class="login-form in-padding">
+    <div class="form-input">
+      <ion-icon name="mail-outline"></ion-icon>
+      <ion-item>
+        <ion-label position="floating">EMAIL</ion-label>
+        <ion-input type="placeholder=Input Email"></ion-input>
+      </ion-item>
+    </div>
+    
+
+    <div class="form-input">
+        <ion-icon name="lock-closed-outline"></ion-icon>
+        <ion-item>
+          <ion-label position="floating">PASSWORD</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      </div>
+  </div>
+  <div class="action-buttons ion-padding">
+    <ion-button size="large" class="button-login" (click)="btnLogin()">Sing In</ion-button>
+    <p class="text-center">forgot password?</p>
+    <ion-button class="singup-button" size=large fill="outline" routerLink="/singup">Sing Up</ion-button>
+</div>
+</div>
+</ion-content>
